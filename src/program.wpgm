@@ -1,0 +1,12 @@
+import verduras.*
+import wollok.game.*
+
+
+program tomatesyflores {
+
+     game.addVisual(tomate)
+     game.addVisualCharacterIn(estrella,game.origin())	
+     verduras.inicio()
+     game.start()
+
+}
